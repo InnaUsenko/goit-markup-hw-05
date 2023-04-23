@@ -571,6 +571,7 @@ img {
   width: 100%;
   height: 100%;
   background-color: #fcfcfc;
+  transition: opacity var(--tr-dur-func), visibility var(var(--tr-dur-func));
 }
 .backdrop.is-hidden {
   opacity: 0;
