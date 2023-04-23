@@ -570,7 +570,6 @@ img {
   z-index: 100;
   width: 100%;
   height: 100%;
-  background-color: #fcfcfc;
   transition: opacity var(--tr-dur-func), visibility var(var(--tr-dur-func));
 }
 .backdrop.is-hidden {
@@ -583,8 +582,12 @@ img {
   position: absolute;
   width: 408px;
   height: 584px;
-  left: 516px;
-  top: 80px;
+
+  left: 50%;
+  top: 50%;
+  margin-top: -292px;
+  margin-left: -204px;
+
   transform: translate(-50% -50%);
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -592,4 +595,12 @@ img {
   border-radius: 4px;
 }
 .modal-close-btn {
+  top: 24px;
+  right: 24px;
+  position: absolute;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  border-color: var(--accent);
 }
