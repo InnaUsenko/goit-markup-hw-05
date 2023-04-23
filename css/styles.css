@@ -598,6 +598,14 @@ img {
   top: 24px;
   right: 24px;
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: #fcfcfc;
+
+  border: none;
 }
 
 .modal-close-btn:hover,
