@@ -603,8 +603,8 @@ img {
   justify-content: center;
   width: 24px;
   height: 24px;
-  background: #fcfcfc;
-
+  background: #e7e9fc;
+  border-radius: 50%;
   border: none;
 }
 
